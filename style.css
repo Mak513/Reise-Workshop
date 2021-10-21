@@ -1,0 +1,59 @@
+header{
+    background-image: url(/images/Louvre_Museum_Wikimedia_Commons.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.bilder{
+    width: 10%;
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.bilder2{
+    width: 30%;
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.statue{
+    width: 20%;
+    float: right;
+    margin-left: 2rem;
+}
+
+.saal{
+    width: 20%;
+    float: left;
+    margin-right: 2rem;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.ul1{
+    float: left;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+video{
+    display: block;
+    margin: auto auto;
+}
+
+#ausstellung{
+    
+}
