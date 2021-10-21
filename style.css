@@ -1,5 +1,5 @@
 
-
+/*Osei*/
 .cover-carousel img {
     height: 600px;
     width: 100%;
@@ -14,7 +14,7 @@
 
 }
 
-img {
+.img {
     width: auto;
     height: 400px;
 }
@@ -32,6 +32,7 @@ img {
     max-width: 500px;
 }
 
+/*Serdar*/
 .head {
     background-image: url(/images/Louvre_Museum_Wikimedia_Commons.jpg);
     background-size: cover;
