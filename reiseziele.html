@@ -39,7 +39,7 @@
                                 <li><a class="dropdown-item" href="#">Kathedrale Notre-Dame, Paris</a></li>
                                 <li><a class="dropdown-item" href="#">Louvre, Paris</a></li>
                                 <li><a class="dropdown-item" href="#">Centre Georges Pompidou, Paris</a></li>
-                                <li><a class="dropdown-item" href="#">Arc de Triomphe de l'Ètoile, Paris</a></li>
+                                <li><a class="dropdown-item" href="#">Arc de Triomphe, Paris</a></li>
                                 <li><a class="dropdown-item" href="#">Musée d'Orsay, Paris</a></li>
                                 <li><a class="dropdown-item" href="#">Basilika Sacré-Coeur, Paris</a></li>
                                 <li><a class="dropdown-item" href="#">Avenue des Champs-Élysées, Paris</a></li>
@@ -61,54 +61,110 @@
         </nav>
     </header>
     <main>
+        <section class="cover-carousel">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/lou1.jpg" class="d-block w-100 " alt="Louvre">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/lou2.jpg" class="d-block w-100 " alt="Louvre">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/lou3.jpg" class="d-block w-100 " alt="Louvre">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+           
+        </section>
+
+        <section class="flex">
+            <div class="card-group">
+                <div class="card ">
+                    <img src="./images/lou3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="reiseziel.html"><button type="button"
+                                    class="btn btn-outline-danger">Louvre</button></a>
+                        </h5>
+                        <p class="card-text">Der Louvre, offiziell das Louvre-Museum, ist ein Kunstmuseum im 1.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="card">
+                    <img src="./images/mdo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-outline-danger ">Musée
+                                d'Orsay</button></h5>
+                        <p class="card-text">Das Musée d’Orsay ist ein Kunstmuseum im 7. Arrondissement von Paris.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
 
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+                <div class="card">
+                    <img src="./images/arc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><button type="button" class="btn btn-outline-danger ">Arc de
+                                Triomphe de l’Étoile</button></h5>
+                        <p class="card-text">Der Arc de Triomphe de l’Étoile oder kurz Arc de Triomphe ist ein von 1806
+                            bis 1836 errichtetes Denkmal im Zentrum der Place Charles-de-Gaulle in Paris. Er gehört zu
+                            den Wahrzeichen der Metropole.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+
+                
+                    <div class="card">
+                        <img src="./images/et.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><button type="button"
+                                    class="btn btn-outline-danger ">Eiffelturm</button></h5>
+                            <p class="card-text">Der Eiffelturm ist ein 324 Meter hoher Eisenfachwerkturm in Paris. Er
+                                steht im 7. Arrondissement am nordwestlichen Ende des Champ de Mars, nahe dem Ufer der
+                                Seine.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/bs.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><button type="button" class="btn btn-outline-danger ">Basilika
+                                    Sacré-Cœur</button></h5>
+                            <p class="card-text">Die Basilica minor Sacré-Cœur de Montmartre ist eine im
+                                neobyzantinischen Stil gebaute römisch-katholische Wallfahrtskirche auf dem Montmartre
+                                im 18. Pariser Arrondissement, die dem Heiligsten Herzen Jesu geweiht ist.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/cp.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><button type="button" class="btn btn-outline-danger ">Avenue des
+                                    Champs-Élysées</button></h5>
+                            <p class="card-text">Die Avenue des Champs Élysées, auch kurz Champs Élysées oder
+                                umgangssprachlich Les Champs genannt, ist eine Prachtstraße in der französischen
+                                Hauptstadt Paris. Sie ist 70 Meter breit und 1910 Meter lang.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+
     </main>
     <footer></footer>
 
