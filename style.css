@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     background-image: url(/images/Louvre_Museum_Wikimedia_Commons.jpg);
     background-size: cover;
@@ -57,3 +58,129 @@ video{
 #ausstellung{
     
 }
+=======
+.cover-carousel img {
+    height: 600px;
+}
+.buttun {
+    margin-top: 100px;
+}
+
+
+/* contact */
+.contact {
+    display:flex ;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ced4da;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#fcf-form {
+    display:block;
+
+}
+
+.fcf-body {
+    margin: 0 auto;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding:10px;
+    padding-bottom: 10px;
+    border-radius: 0.25rem;
+    max-width: 50%;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    
+}
+
+.fcf-form-control:focus {
+    border: 2px solid #313131;
+}
+
+
+
+textarea.fcf-form-control {
+    font-family: -apple-system, Arial, sans-serif;
+
+    height:auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+    display: block;
+    width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+    margin-top: 0.5rem;
+} 
+>>>>>>> origin/jaber
