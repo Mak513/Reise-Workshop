@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lobster&display=swap');
 
+body {
+    font-family: 'Lobster',
+    cursive;
+    font-size: 1.3rem;
+    background-color: #575b5f23;
+}
+
+header{
+    font-size: 1.5rem;
+}
+
+#footer {
+    border-top: 1px solid #ced4da;
+}
 /*Osei*/
 .cover-carousel img {
     height: 600px;
@@ -30,6 +45,7 @@
 .card {
     min-width: 500px;
     max-width: 500px;
+    box-shadow: #1213139d 2px 2.4px;
 }
 
 /*Serdar*/
@@ -90,10 +106,6 @@ video {
 }
 
 
-
-.cover-carousel img {
-    height: 600px;
-}
 .buttun {
     margin-top: 100px;
 }
@@ -102,7 +114,7 @@ video {
 /* contact */
 
 .contact {
-    display:flex ;
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
@@ -111,20 +123,18 @@ video {
 }
 
 #fcf-form {
-    display:block;
-
+    display: block;
 }
 
 .fcf-body {
     margin: 0 auto;
-    font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
     background-color: #fff;
-    padding:10px;
+    padding: 10px;
     padding-bottom: 10px;
     border-radius: 0.25rem;
     max-width: 50%;
@@ -148,7 +158,7 @@ video {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    
+
 }
 
 .fcf-form-control:focus {
@@ -160,7 +170,7 @@ video {
 textarea.fcf-form-control {
     font-family: -apple-system, Arial, sans-serif;
 
-    height:auto;
+    height: auto;
 }
 
 label.fcf-label {
@@ -201,7 +211,8 @@ label.fcf-label {
 }
 
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg>.fcf-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     border-radius: 0.3rem;
@@ -214,4 +225,4 @@ label.fcf-label {
 
 .fcf-btn-block+.fcf-btn-block {
     margin-top: 0.5rem;
-} 
+}
