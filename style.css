@@ -100,12 +100,12 @@ video {
 
 
 /* contact */
+
 .contact {
     display:flex ;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ced4da;
     width: 50%;
     margin: 0 auto;
 }
